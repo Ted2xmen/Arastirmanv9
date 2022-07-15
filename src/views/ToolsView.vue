@@ -15,17 +15,17 @@ const titleStack = ref(["Araştırman", "Faydalı Araçlar"]);
   <SectionMain>
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
 
-   <BookmarkCard
+   <!-- <BookmarkCard
         hoverable
         v-for="(item, i) in 9"
         :key="i"
-        image="logos/archive.png"
+        image="./logos/archive.png"
         label="Deneme"
       />
 
       <CardBox hoverable v-for="item in 3" :key="item">
         <img src="./logos/archive.png" width="100" alt="" />
-      </CardBox>
+      </CardBox> -->
 
    
     </div>

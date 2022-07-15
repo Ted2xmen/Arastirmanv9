@@ -14,7 +14,7 @@ const titleStack = ref(["Araştırman", "Literatür Taraması"]);
 
   <SectionMain>
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
-      <CardBox hoverable v-for="item in 3" :key="item">
+      <!-- <CardBox hoverable v-for="item in 3" :key="item">
         <img src="./logos/archive.png" width="100" alt="" />
       </CardBox>
 
@@ -24,7 +24,7 @@ const titleStack = ref(["Araştırman", "Literatür Taraması"]);
         :key="i"
         image="./logos/archive.png"
         label="Deneme"
-      />
+      /> -->
     </div>
   </SectionMain>
 </template>

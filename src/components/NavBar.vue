@@ -142,7 +142,7 @@ const menuOpenLg = () => {
             </NavBarItem>
           </template>
         </NavBarMenu>
-        <NavBarItem
+        <!-- <NavBarItem
           has-divider
           is-desktop-icon-only
           @click.prevent="toggleLightDark"
@@ -152,7 +152,7 @@ const menuOpenLg = () => {
             label="Light/Dark"
             is-desktop-icon-only
           />
-        </NavBarItem>
+        </NavBarItem> -->
         <NavBarItem
           href="https://github.com/justboil/admin-one-vue-tailwind"
           has-divider

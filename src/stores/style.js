@@ -43,13 +43,13 @@ export const useStyleStore = defineStore('style', {
     },
 
     setDarkMode (payload = null) {
-      const value = payload !== null ? payload : !this.darkMode
+      // const value = payload !== null ? payload : this.darkMode
 
-      document.documentElement.classList[value ? 'add' : 'remove']('dark')
+      // document.documentElement.classList[value ? 'add' : 'remove']('dark')
 
-      localStorage.setItem(darkModeKey, value ? '1' : '0')
+      // localStorage.setItem(darkModeKey, value ? '1' : '0')
 
-      this.darkMode = value
+      // this.darkMode = !value
     }
   }
 })

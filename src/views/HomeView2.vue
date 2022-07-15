@@ -57,7 +57,7 @@ console.log(clientBarItems)
       image="./logos/archive.png" :label="item.name"   /> -->
 
       <CardBox hoverable v-for="item in 3" :key="item">
-        <img src="logos/archive.png" width="100" alt="" />
+        <img src="/logos/archive.png" width="100" alt="" />
       </CardBox> 
 
 

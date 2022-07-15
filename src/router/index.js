@@ -36,56 +36,26 @@ const routes = [
     name: "tools",
     component: () => import("@/views/ToolsView.vue"),
   },
-  {
-    meta: {
-      title: "Forms",
-    },
-    path: "/forms",
-    name: "forms",
-    component: () => import("@/views/FormsView.vue"),
-  },
-  {
-    meta: {
-      title: "Profile",
-    },
-    path: "/profile",
-    name: "profile",
-    component: () => import("@/views/ProfileView.vue"),
-  },
-  {
-    meta: {
-      title: "Ui",
-    },
-    path: "/ui",
-    name: "ui",
-    component: () => import("@/views/UiView.vue"),
-  },
-  {
-    meta: {
-      title: "Responsive layout",
-    },
-    path: "/responsive",
-    name: "responsive",
-    component: () => import("@/views/ResponsiveView.vue"),
-  },
-  {
-    meta: {
-      title: "Login",
-      fullScreen: true,
-    },
-    path: "/login",
-    name: "login",
-    component: () => import("@/views/LoginView.vue"),
-  },
-  {
-    meta: {
-      title: "Error",
-      fullScreen: true,
-    },
-    path: "/error",
-    name: "error",
-    component: () => import("@/views/ErrorView.vue"),
-  },
+
+
+  // {
+  //   meta: {
+  //     title: "Ui",
+  //   },
+  //   path: "/ui",
+  //   name: "ui",
+  //   component: () => import("@/views/UiView.vue"),
+  // },
+  // {
+  //   meta: {
+  //     title: "Responsive layout",
+  //   },
+  //   path: "/responsive",
+  //   name: "responsive",
+  //   component: () => import("@/views/ResponsiveView.vue"),
+  // },
+
+  
 ];
 
 const router = createRouter({

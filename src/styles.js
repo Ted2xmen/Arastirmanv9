@@ -1,4 +1,4 @@
-const bodyBase = 'text-base dark:bg-gray-800 dark:text-gray-100'
+const bodyBase = 'text-base ' // dark:bg-gray-800 dark:text-gray-100
 
 export const basic = {
   body: `bg-gray-50 ${bodyBase}`,

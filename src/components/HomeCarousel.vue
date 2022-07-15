@@ -2,7 +2,7 @@
   <Carousel :settings="settings" :autoplay="2000" :breakpoints="breakpoints">
     <Slide v-for="slide in 10" :key="slide">
       <div class="carousel__item py-8">
-          <img src="/logos/duke.png" width="50" alt="">
+          <img src="/src/logos/archive.png" width="50" alt="">
         </div>
     </Slide>
 

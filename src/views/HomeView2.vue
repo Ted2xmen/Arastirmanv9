@@ -52,12 +52,12 @@ console.log(clientBarItems)
   <SectionMain>
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
    
-<!-- 
+
       <BookmarkCard hoverable v-for="(item, i) in bookmarkItems" :key="i" 
-      image="./logos/archive.png" :label="item.name"   /> -->
+      image="/src/logos/archive.png" :label="item.name"   /> 
 
       <CardBox hoverable v-for="item in 3" :key="item">
-        <img src="/logos/archive.png" width="100" alt="" />
+        <img src="/src/logos/ircica.png" width="100" alt="" />
       </CardBox> 
 
 

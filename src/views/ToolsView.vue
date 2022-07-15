@@ -24,7 +24,7 @@ const titleStack = ref(["Araştırman", "Faydalı Araçlar"]);
       />
 
       <CardBox hoverable v-for="item in 3" :key="item">
-        <img src="logos/archive.png" width="100" alt="" />
+        <img src="./logos/archive.png" width="100" alt="" />
       </CardBox>
 
    

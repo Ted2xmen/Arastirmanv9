@@ -11,10 +11,10 @@ const isFooterBarVisible = computed(() => !useLayoutStore().isFullScreen)
 <template>
   <footer
     v-show="isFooterBarVisible"
-    class="bg-white py-2 px-6 dark:bg-gray-900/70"
+    class=" py-2 px-6"
   >
     <BaseLevel>
-      <div class="text-center md:text-left">
+      <div class="text-center md:text-left text-gray-300">
         <b>&copy;2019-{{ year }} </b> Arastirman.com 
  
       </div>

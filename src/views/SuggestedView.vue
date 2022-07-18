@@ -42,7 +42,7 @@ console.log(clientBarItems)
 
 <template>
   <SectionTitleBar :title-stack="titleStack" />
-  <SectionMain>
+  <SectionMain class="mx-2">
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
    
 

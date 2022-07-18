@@ -25,9 +25,12 @@ import CardBoxTransaction from "@/components/CardBoxTransaction.vue";
 import CardBoxClient from "@/components/CardBoxClient.vue";
 import SectionTitleBarSub from "@/components/SectionTitleBarSub.vue";
 import BookmarkCard from "@/components/BookmarkCard.vue";
-import HomeCarousel from '@/components/HomeCarousel.vue'
+import HomeCarousel from "@/components/HomeCarousel.vue";
 
-const titleStack = ref(["Araştırman", "Araştırmacılar için İnternet Kaynakları"]);
+const titleStack = ref([
+  "Araştırman",
+  "Araştırmacılar için İnternet Kaynakları",
+]);
 
 const mainStore = useMainStore();
 
@@ -35,47 +38,35 @@ const clientBarItems = computed(() => mainStore.clients.slice(0, 3));
 
 const transactionBarItems = computed(() => mainStore.history.slice(0, 3));
 
-
 const bookmarkItems = computed(() => mainStore.bookmarks.slice(0, 3));
-console.log(clientBarItems)
-
+console.log(clientBarItems);
 </script>
 
 <template>
   <SectionTitleBar :title-stack="titleStack" />
-      <!-- <SectionTitleBarSub :icon="mdiChartPie" title="Trends overview" /> -->
-<div class="mx-8">
+  <!-- <SectionTitleBarSub :icon="mdiChartPie" title="Trends overview" /> -->
+  <div class="mx-8">
     <HomeCarousel />
+  </div>
 
-</div>
-
-  <SectionMain>
+  <SectionMain class="mx-2">
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
-   
-
-      <BookmarkCard hoverable v-for="(item, i) in bookmarkItems" :key="i" 
-      image="/src/logos/archive.png" :label="item.name"   /> 
+      <BookmarkCard
+        hoverable
+        v-for="(item, i) in bookmarkItems"
+        :key="i"
+        image="/src/logos/archive.png"
+        :label="item.name"
+      />
 
       <CardBox hoverable v-for="item in 3" :key="item">
         <img src="/src/logos/ircica.png" width="100" alt="" />
-      </CardBox> 
-
-
-      <!-- <CardBoxWidget
-        trend="120%"
-        trend-type="alert"
-        color="text-blue-500"
-        :number="7770"
-        image="logos/harvard.png"
-        label="Salesss"
-      /> -->
-  
+      </CardBox>
     </div>
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-6">
       <div class="flex flex-col justify-between">
-
         <CardBoxTransaction
-        hoverable
+          hoverable
           v-for="(transaction, index) in transactionBarItems"
           :key="index"
           :amount="transaction.amount"
@@ -86,19 +77,8 @@ console.log(clientBarItems)
           :account="transaction.account"
         />
       </div>
-      
-         <CardBox>
-          
-          
-           </CardBox>
-      
-      
 
-      
-  
+      <CardBox> </CardBox>
     </div>
-
-
-
   </SectionMain>
 </template>

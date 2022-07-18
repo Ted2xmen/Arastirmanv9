@@ -12,22 +12,19 @@ const titleStack = ref(["Araştırman", "Faydalı Araçlar"]);
 <template>
   <SectionTitleBar :title-stack="titleStack" />
 
-  <SectionMain>
+  <SectionMain class="mx-2">
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
-
    <BookmarkCard
         hoverable
         v-for="(item, i) in 9"
         :key="i"
         image="/src/logos/archive.png"
-        label="Deneme"
+        label="Deneme deneme deneme deneme deneme"
       />
 
       <CardBox hoverable v-for="item in 3" :key="item">
         <img src="/src/logos/archive.png" width="100" alt="" />
       </CardBox>
-
-   
     </div>
   </SectionMain>
 </template>

@@ -35,21 +35,18 @@ defineProps({
 </script>
 
 <template>
-
-  <div class="flex items-center bg-red-200 rounded-lg shadow-md">
-    <div class="p-1">
-      <img :src="image" class="rounded-lg p-1 border-2 shadow" width="75" alt="" />
+  <div class="bg-gray-200 pb-6 hover:bg-gray-400 transition-all rounded-b-lg">
+    <div class="flex items-center bg-yellow-200 pt-4 px-2 shadow-md space-x-1">
+      <img :src="image" class="mb-5 p-1" width="50" alt="" />
+      <div>
+        <h2 class="text-md font-bold leading-tight text-gray-500">
+          <a href="#" class="">{{ label }}</a>
+        </h2>
+        <h3 class="text-xs text-gray-500 p-1 leading-tight">
+          {{ description }}
+        </h3>
+        <div class="inline-flex"></div>
+      </div>
     </div>
-<header>
-  <h2 class="text-sm leading-tight text-gray-500 ">
-      <a href="#" class="">{{ label }}</a>
-    </h2>
-</header>
-<div>
-   <h3 class="text-md w-24 p-1 leading-tight">
-      {{ description }}
-    </h3>
-</div>
-   
   </div>
 </template>

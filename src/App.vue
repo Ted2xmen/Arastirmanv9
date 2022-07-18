@@ -12,9 +12,9 @@ import OverlayLayer from '@/components/OverlayLayer.vue'
 const mainStore = useMainStore()
 
 mainStore.setUser({
-  name: 'John Doe',
+  name: 'Ziyaretçi',
   email: 'john@example.com',
-  avatar: 'https://avatars.dicebear.com/api/avataaars/example.svg?options[top][]=shortHair&options[accessoriesChance]=93'
+  avatar: null
 })
 
 const layoutStore = useLayoutStore()
@@ -30,7 +30,7 @@ const overlayClick = () => {
   <NavBar />
   <AsideMenu :menu="menu" />
   <RouterView />
-  <FooterBar />
+  <!-- <FooterBar /> -->
   <OverlayLayer
     v-show="isAsideLgActive"
     z-index="z-30"

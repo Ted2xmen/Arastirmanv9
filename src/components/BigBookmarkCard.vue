@@ -19,7 +19,7 @@ defineProps({
     type: String,
     default: null,
   },
-  color: {
+  uri: {
     type: String,
     default: null,
   },
@@ -40,7 +40,7 @@ defineProps({
       <img :src="image" class="mb-5 p-1" width="50" alt="" />
       <div>
         <h2 class="text-md font-bold leading-tight text-gray-500">
-          <a href="#" class="">{{ label }}</a>
+          <a :href="uri" class="">{{ label }}</a>
         </h2>
         <h3 class="text-xs text-gray-500 p-1 leading-tight">
           {{ description }}

@@ -1,0 +1,100 @@
+{
+    "data": [
+     
+          {
+            "guid": "Tu3qDzRz88Zx",
+            "title": "DergiPark",
+            "index": 0,
+            "dateAdded": 1649245689214000,
+            "lastModified": 1649514162615000,
+            "id": 839,
+            "typeCode": 1,
+            "type": "text/x-moz-place",
+            "uri": "https://dergipark.org.tr/en/"
+          },
+          {
+            "guid": "WUgwEGLCKESg",
+            "title": "Ulusal Tez Merkezi",
+            "index": 1,
+            "dateAdded": 1649245705365000,
+            "lastModified": 1649514167850000,
+            "id": 840,
+            "typeCode": 1,
+            "iconuri": "https://tez.yok.gov.tr/UlusalTezMerkezi/css/images/favicon.ico",
+            "type": "text/x-moz-place",
+            "uri": "https://tez.yok.gov.tr/UlusalTezMerkezi/"
+          },
+          {
+            "guid": "tXmJ0zPDLNcL",
+            "title": "İslâm Araştırmaları Merkezi ",
+            "index": 2,
+            "dateAdded": 1599753503100000,
+            "lastModified": 1649515598256000,
+            "id": 168,
+            "typeCode": 1,
+            "type": "text/x-moz-place",
+            "uri": "http://ktp2.isam.org.tr/"
+          },
+          {
+            "guid": "btzvCVRcjqJs",
+            "title": "JSTOR Home",
+            "index": 3,
+            "dateAdded": 1599756703339000,
+            "lastModified": 1649246186655000,
+            "id": 165,
+            "typeCode": 1,
+            "iconuri": "https://www.jstor.org/assets/global_20220528T0305/build/images/favicons/android-chrome-512x512.png",
+            "type": "text/x-moz-place",
+            "uri": "https://www.jstor.org/"
+          },
+          {
+            "guid": "2D-sxK0c4xnt",
+            "title": "AÜ Akademik Arşiv",
+            "index": 4,
+            "dateAdded": 1649246608614000,
+            "lastModified": 1649515542719000,
+            "id": 853,
+            "typeCode": 1,
+            "iconuri": "https://dspace.ankara.edu.tr/xmlui/themes/Mirage2/images/apple-touch-icon.png",
+            "type": "text/x-moz-place",
+            "uri": "https://dspace.ankara.edu.tr/xmlui/"
+          },
+          {
+            "guid": "gfcam6gYArUF",
+            "title": "Milli Kütüphane",
+            "index": 5,
+            "dateAdded": 1649246644330000,
+            "lastModified": 1649514199366000,
+            "id": 855,
+            "typeCode": 1,
+            "iconuri": "http://www.millikutuphane.gov.tr/Common/favicon.new.ico?v=20200701-1735",
+            "type": "text/x-moz-place",
+            "uri": "http://www.millikutuphane.gov.tr/"
+          },
+          {
+            "guid": "HHZwOIfonjUC",
+            "title": "Devlet Arşivleri Başkanlığı",
+            "index": 6,
+            "dateAdded": 1649514817583000,
+            "lastModified": 1649515577492000,
+            "id": 870,
+            "typeCode": 1,
+            "iconuri": "https://www.devletarsivleri.gov.tr/varliklar/tasarim/favicon.ico",
+            "type": "text/x-moz-place",
+            "uri": "https://www.devletarsivleri.gov.tr/"
+          },
+          {
+            "guid": "fxHUWAVvu-2W",
+            "title": "Academia.edu",
+            "index": 7,
+            "dateAdded": 1599755905386000,
+            "lastModified": 1649515023400000,
+            "id": 170,
+            "typeCode": 1,
+            "iconuri": "https://a.academia-assets.com/images/favicons/favicon-194x194.png",
+            "type": "text/x-moz-place",
+            "uri": "https://www.academia.edu/"
+        
+      }
+    ]
+}

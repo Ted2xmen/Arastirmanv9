@@ -39,17 +39,57 @@ const clientBarItems = computed(() => mainStore.clients.slice(0, 3));
 const transactionBarItems = computed(() => mainStore.history.slice(0, 3));
 
 const bookmarkItems = computed(() => mainStore.bookmarks.slice(0, 3));
-console.log(clientBarItems);
 </script>
 
 <template>
   <SectionTitleBar :title-stack="titleStack" />
   <!-- <SectionTitleBarSub :icon="mdiChartPie" title="Trends overview" /> -->
-  <div class="mx-8">
-    <HomeCarousel />
-  </div>
 
-  <SectionMain class="mx-2">
+  <SectionMain class="mx-2 space-y-3">
+    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4">
+      <CardBox
+        class="
+          bg-hero
+          shadow-md
+          pt-12
+          pr-6
+          col-span-2
+          bg-cover bg-center bg-no-repeat
+        "
+      >
+        <h2 class="text-black text-2xl font-bold text-right">
+          Araştırmacılar için İnternet Kaynakları
+        </h2>
+      </CardBox>
+
+      <div class="space-y-2">
+        <CardBox
+          class="
+            bg-hero2
+            text-center
+            shadow-md
+            text-black text-2xl
+            font-bold
+            bg-cover bg-center bg-no-repeat
+          "
+        >
+          Blog
+        </CardBox>
+        <CardBox
+          class="
+            bg-hero3
+            text-center
+            shadow-md
+            text-white text-2xl
+            font-bold
+            bg-cover bg-center bg-no-repeat
+          "
+        >
+          Twitter
+        </CardBox>
+      </div>
+    </div>
+
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
       <BookmarkCard
         hoverable
@@ -60,8 +100,11 @@ console.log(clientBarItems);
       />
 
       <CardBox hoverable v-for="item in 3" :key="item">
-        <img src="/src/logos/ircica.png" width="100" alt="" />
+        <img src="/src/logos/evernote.png" width="100" alt="" />
       </CardBox>
+    </div>
+    <div class="mx-8">
+      <HomeCarousel />
     </div>
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-6">
       <div class="flex flex-col justify-between">
@@ -78,7 +121,7 @@ console.log(clientBarItems);
         />
       </div>
 
-      <CardBox> </CardBox>
+      <CardBox class=""> </CardBox>
     </div>
   </SectionMain>
 </template>

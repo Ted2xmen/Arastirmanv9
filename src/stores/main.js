@@ -14,6 +14,8 @@ export const useMainStore = defineStore('main', {
     clients: [],
     history: [],
     bookmarks: [],
+    libs: [],
+    starter: []
   }),
   actions: {
     setUser (payload) {

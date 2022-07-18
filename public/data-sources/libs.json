@@ -1,0 +1,156 @@
+{
+  "data": [
+    {
+      "guid": "FcV0Q_vYY9sP",
+      "title": "University of Minnesota Libraries",
+      "index": 0,
+      "dateAdded": 1649245822649000,
+      "lastModified": 1649513981421000,
+      "id": 844,
+      "typeCode": 1,
+      "iconuri": "https://www.lib.umn.edu/sites/www.lib.umn.edu/themes/umnlib/favicons/android-chrome-512x512.png",
+      "type": "text/x-moz-place",
+      "uri": "https://www.lib.umn.edu/collections/special"
+    },
+    {
+      "guid": "C9dxL_k1HJGh",
+      "title": "University of Michigan Library",
+      "index": 1,
+      "dateAdded": 1555505758000000,
+      "lastModified": 1649514002372000,
+      "id": 213,
+      "typeCode": 1,
+      "iconuri": "https://libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png",
+      "type": "text/x-moz-place",
+      "uri": "https://guides.lib.umich.edu/?b=s"
+    },
+    {
+      "guid": "A7rHc2DiLryy",
+      "title": "Internet Archive",
+      "index": 2,
+      "dateAdded": 1599756732846000,
+      "lastModified": 1649514013102000,
+      "id": 216,
+      "typeCode": 1,
+      "iconuri": "https://archive.org/offshoot_assets/favicon.ico",
+      "type": "text/x-moz-place",
+      "uri": "https://archive.org/"
+    },
+    {
+      "guid": "gGCvs5_YZ-Lt",
+      "title": "Portland State University Databases & Articles",
+      "index": 3,
+      "dateAdded": 1649245883100000,
+      "lastModified": 1649514063290000,
+      "id": 845,
+      "typeCode": 1,
+      "iconuri": "https://libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png",
+      "type": "text/x-moz-place",
+      "uri": "https://guides.library.pdx.edu/az.php"
+    },
+    {
+      "guid": "zXGn8BV5J60k",
+      "title": "Ottoman & Turkish Studies Association",
+      "index": 4,
+      "dateAdded": 1649245903083000,
+      "lastModified": 1649245903083000,
+      "id": 846,
+      "typeCode": 1,
+      "iconuri": "https://www.ottomanturkishstudiesassociation.org/wp-content/uploads/2020/01/cropped-OTSAicon-192x192.png",
+      "type": "text/x-moz-place",
+      "uri": "https://www.ottomanturkishstudiesassociation.org/"
+    },
+    {
+      "guid": "m4JShap_s56h",
+      "title": "SALT Araştırma",
+      "index": 5,
+      "dateAdded": 1599760331537000,
+      "lastModified": 1649514070037000,
+      "id": 207,
+      "typeCode": 1,
+      "type": "text/x-moz-place",
+      "uri": "https://archives.saltresearch.org/"
+    },
+    {
+      "guid": "jk-3Vl4qnYrh",
+      "title": "IRCICA Kütüphanesi",
+      "index": 6,
+      "dateAdded": 1649246498329000,
+      "lastModified": 1649246498329000,
+      "id": 849,
+      "typeCode": 1,
+      "iconuri": "https://library.ircica.org/images/apple-touch-icon-144x144.png",
+      "type": "text/x-moz-place",
+      "uri": "https://library.ircica.org/"
+    },
+    {
+      "guid": "aYzyeSLTRAM3",
+      "title": "Turuz - Dil ve Etimoloji Kütüphanesi",
+      "index": 7,
+      "dateAdded": 1649246510101000,
+      "lastModified": 1649246510101000,
+      "id": 850,
+      "typeCode": 1,
+      "type": "text/x-moz-place",
+      "uri": "https://turuz.com/"
+    },
+    {
+      "guid": "iMhBx9nDjY6Y",
+      "title": "Duke University Libraries",
+      "index": 8,
+      "dateAdded": 1649246521346000,
+      "lastModified": 1649514089921000,
+      "id": 851,
+      "typeCode": 1,
+      "iconuri": "https://archive.org/images/glogo.jpg",
+      "type": "text/x-moz-place",
+      "uri": "https://archive.org/details/dulturk"
+    },
+    {
+      "guid": "9swPHppuBHw5",
+      "title": "Gallica",
+      "index": 9,
+      "dateAdded": 1649246594309000,
+      "lastModified": 1649246594309000,
+      "id": 852,
+      "typeCode": 1,
+      "iconuri": "https://gallica.bnf.fr/accueil/sites/default/files/index.ico",
+      "type": "text/x-moz-place",
+      "uri": "https://gallica.bnf.fr/accueil/en/content/accueil-en/?mode=desktop"
+    },
+    {
+      "guid": "Ll8yg3XSkmcN",
+      "title": "Gertrude Bell",
+      "index": 10,
+      "dateAdded": 1649246723563000,
+      "lastModified": 1649246723563000,
+      "id": 859,
+      "typeCode": 1,
+      "type": "text/x-moz-place",
+      "uri": "http://gertrudebell.ncl.ac.uk/photos.php"
+    },
+    {
+      "guid": "YcwRoyWitUB6",
+      "title": "İSLAM DÜŞÜNCE ATLASI",
+      "index": 11,
+      "dateAdded": 1614981772750000,
+      "lastModified": 1649514739466000,
+      "id": 219,
+      "typeCode": 1,
+      "iconuri": "https://islamdusunceatlasi.org/images/2019/07/favicon.png",
+      "type": "text/x-moz-place",
+      "uri": "https://www.islamdusunceatlasi.org/hakkimizda"
+    },
+    {
+      "guid": "yHJC7oeLB22u",
+      "title": "Osmanlı Kitabeleri Projesi",
+      "index": 12,
+      "dateAdded": 1649245936465000,
+      "lastModified": 1649514746535000,
+      "id": 847,
+      "typeCode": 1,
+      "type": "text/x-moz-place",
+      "uri": "http://info.ottomaninscriptions.com/"
+    }
+  ]
+}

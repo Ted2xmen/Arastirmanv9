@@ -5,17 +5,7 @@ import BaseLevel from "@/components/BaseLevel.vue";
 import PillTagTrend from "@/components/PillTagTrend.vue";
 import BaseButton from "@/components/BaseButton.vue";
 
-  defineComponent({
-  name: "BookmarkCard",
-  components: {
-  
-  
-  },
-  props: ["containerData"],
-})
-
 defineProps({
-  
   label: {
     type: String,
     default: null,
@@ -78,14 +68,13 @@ defineProps({
       target="_blank"
       rel="noopener noreferrer"
       class="text-white group-hover:text-black"
-      >
+    >
       <header>
         <h2 class="text-sm leading-tight">
           {{ label }}
         </h2>
       </header>
-      </a
-    >
+    </a>
     <div>
       <h3 class="text-md w-24 p-1 leading-tight">
         {{ description }}

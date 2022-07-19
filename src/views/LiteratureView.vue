@@ -30,17 +30,11 @@ const birincil = computed(() => mainStore.starter);
         :alt="item.title"
       />
     </div>
+    
 
     <SectionTitleBarSub :icon="mdiChartPie" title="Üniversite Kütüphaneleri" />
     <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
-      <!-- <BigBookmarkCard
-        v-for="(item, i) in birincil"
-        :key="i"
-        :uri="item.uri"
-        :image="item.iconuri"
-        :label="item.title"
-      >
-      </BigBookmarkCard> -->
+   
       <BookmarkCard
         v-for="(item, i) in libraryItems"
         :key="i"

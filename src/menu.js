@@ -73,10 +73,9 @@ export default [
       ],
     },
     {
-      href: "https://github.com/justboil/admin-one-vue-tailwind",
+      to: "/sad",
       label: "Kurslar",
-      icon: mdiGithub,
-      target: "_blank",
+      icon: mdiGithub
     },
   ],
   // "Keşfet",

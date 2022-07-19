@@ -62,9 +62,9 @@ const menuClick = () => {
       </div>
     </div>
     <div>
-      <div class="flex justify-center py-3">
-         <img src="/src/logos/dergipark.png" width="150" /> 
-      </div>
+      <!-- <div class="flex justify-center py-3">
+         <img src="/src/logos/duke.png" width="150" /> 
+      </div> -->
       <template v-for="(menuGroup, index) in menu">
         <p
           v-if="typeof menuGroup === 'string'"
@@ -81,8 +81,10 @@ const menuClick = () => {
           @menu-click="menuClick"
         />
       </template>
-      <div class="flex justify-center py-3">
-        <img src="/src/logos/duke.png" width="150" />
+      <div class="flex flex-col items-center gap-3 justify-center pt-5">
+        <img src="/src/logos/dergipark.png" width="150" />
+                <img src="/src/logos/tureng.png" width="150" />
+
       </div>
     </div>
   </aside>

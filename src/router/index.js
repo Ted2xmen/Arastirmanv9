@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '@/views/HomeView2.vue' // 2 
+import Home from '@/views/HomeView3.vue' // 2 
 
 const routes = [
   {
@@ -38,6 +38,7 @@ const routes = [
   },
 
 
+
   // {
   //   meta: {
   //     title: "Ui",
@@ -54,8 +55,6 @@ const routes = [
   //   name: "responsive",
   //   component: () => import("@/views/ResponsiveView.vue"),
   // },
-
-  
 ];
 
 const router = createRouter({

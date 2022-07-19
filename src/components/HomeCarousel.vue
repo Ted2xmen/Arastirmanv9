@@ -1,9 +1,9 @@
 <template>
   <Carousel :settings="settings" :autoplay="2000" :breakpoints="breakpoints">
-    <Slide v-for="slide in 10" :key="slide">
+    <Slide v-for="slide in items" :key="slide">
       <div class="carousel__item py-8">
-          <img src="/src/logos/archive.png" width="50" alt="">
-        </div>
+        <img :src="slide.iconuri"  width="50" alt="" />
+      </div>
     </Slide>
 
     <template #addons>
@@ -18,24 +18,27 @@
 }
 </style>
 
-<script>
-import { defineComponent } from 'vue';
-import { Carousel, Navigation, Slide } from 'vue3-carousel';
+<script >
+import { defineComponent, computed } from "vue";
 
-import 'vue3-carousel/dist/carousel.css';
+import { Carousel, Navigation, Slide } from "vue3-carousel";
+
+import "vue3-carousel/dist/carousel.css";
+
 
 export default defineComponent({
-  name: 'home-carousel',
+  name: "home-carousel",
   components: {
     Carousel,
     Slide,
     Navigation,
   },
+  props: ["items"],
   data: () => ({
     // carousel settings
     settings: {
       itemsToShow: 1,
-      snapAlign: 'center',
+      snapAlign: "center",
     },
     // breakpoints are mobile first
     // any settings not specified will fallback to the carousel settings
@@ -43,12 +46,12 @@ export default defineComponent({
       // 700px and up
       700: {
         itemsToShow: 3.5,
-        snapAlign: 'center',
+        snapAlign: "center",
       },
       // 1024 and up
       1024: {
         itemsToShow: 5,
-        snapAlign: 'start',
+        snapAlign: "start",
       },
     },
   }),

@@ -24,7 +24,6 @@ defineProps({
         </li>
       </ul>
 
-  <div>Blog Yazılarına Git</div>
 
         <BaseButton
         href="https://github.com/justboil/admin-one-vue-tailwind"

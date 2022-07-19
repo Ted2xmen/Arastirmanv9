@@ -26,6 +26,7 @@ import CardBoxClient from "@/components/CardBoxClient.vue";
 import SectionTitleBarSub from "@/components/SectionTitleBarSub.vue";
 import BookmarkCard from "@/components/BookmarkCard.vue";
 import HomeCarousel from "@/components/HomeCarousel.vue";
+import ToolCard from "@/components/ToolCard.vue";
 
 const titleStack = ref([
   "Araştırman",
@@ -38,7 +39,7 @@ const clientBarItems = computed(() => mainStore.clients.slice(0, 3));
 
 const transactionBarItems = computed(() => mainStore.history.slice(0, 3));
 
-const bookmarkItems = computed(() => mainStore.bookmarks.slice(0, 3));
+const bookmarkItems = computed(() => mainStore.libs.slice(0, 6));
 </script>
 
 <template>
@@ -90,22 +91,34 @@ const bookmarkItems = computed(() => mainStore.bookmarks.slice(0, 3));
       </div>
     </div>
 
-    <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
+    <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 mb-6">
       <BookmarkCard
         hoverable
         v-for="(item, i) in bookmarkItems"
         :key="i"
-        image="/src/logos/archive.png"
-        :label="item.name"
+        :uri="item.uri"
+        :image="item.iconuri"
+        :label="item.title"
       />
+      
 
-      <CardBox hoverable v-for="item in 3" :key="item">
-        <img src="/src/logos/evernote.png" width="100" alt="" />
-      </CardBox>
+    
+
+
     </div>
     <div class="mx-8">
-      <HomeCarousel />
+      <HomeCarousel :items="bookmarkItems" />
+      
     </div>
+    
+   <div class="grid grid-cols-1 xl:grid-cols-2 gap-2 ">
+      <div class="flex flex-col justify-between overflow-auto h-96 gap-2 ">
+        <ToolCard v-for="(item, i) in bookmarkItems"  :label="item.title"  :image="item.iconuri"  :key="i" />
+      </div>
+
+      <CardBox class=""> </CardBox>
+    </div>
+
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-6">
       <div class="flex flex-col justify-between">
         <CardBoxTransaction

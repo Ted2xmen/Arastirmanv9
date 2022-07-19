@@ -1,21 +1,7 @@
 <script setup>
-import CardBox from "@/components/CardBox.vue";
-import BaseIcon from "@/components/BaseIcon.vue";
-import BaseLevel from "@/components/BaseLevel.vue";
-import PillTagTrend from "@/components/PillTagTrend.vue";
-import BaseButton from "@/components/BaseButton.vue";
 
-  defineComponent({
-  name: "BookmarkCard",
-  components: {
-  
-  
-  },
-  props: ["containerData"],
-})
 
 defineProps({
-  
   label: {
     type: String,
     default: null,
@@ -28,26 +14,10 @@ defineProps({
     type: String,
     default: null,
   },
-  alt: {
-    type: String,
-    default: null,
-  },
   image: {
-    type: String,
-    default: "https://www.svgrepo.com/show/139611/loading.svg",
-  },
-  color: {
-    type: String,
+      type: String,
     default: null,
-  },
-  trend: {
-    type: String,
-    default: null,
-  },
-  trendType: {
-    type: String,
-    default: null,
-  },
+  }
 });
 </script>
 
@@ -57,9 +27,9 @@ defineProps({
       flex
       items-center
       p-1
-      bg-slate-400
+      bg-green-900
       group
-      hover:bg-slate-300
+      hover:bg-green-400
       rounded-lg
       shadow-md
     "

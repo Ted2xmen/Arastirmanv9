@@ -44,20 +44,14 @@ defineProps({
 <template>
   <div
     class="
-      flex
-      items-center
-      p-1
-      bg-slate-400
-      group
-      hover:bg-slate-300
-      rounded-lg
-      shadow-md
+    
+      bookmark-card
     "
   >
     <div class="p-1">
       <img
         :src="image"
-        class="rounded-lg p-1"
+        class="rounded-lg p-1 hover:scale-150 transition"
         width="50"
         height="50"
         :alt="alt"
@@ -67,7 +61,7 @@ defineProps({
       :href="uri"
       target="_blank"
       rel="noopener noreferrer"
-      class="text-white group-hover:text-black"
+      class=" "
     >
       <header>
         <h2 class="text-sm leading-tight">

@@ -2,8 +2,8 @@ const bodyBase = "text-base dark:bg-gray-800 dark:text-gray-100"; //
 
 export const basic = {
   body: `bg-gray-50 ${bodyBase}`, 
-  aside: "bg-gray-800 aside-scrollbars-gray",
-  asideBrand: "bg-gray-900 text-white",
+  aside: "bg-slate-800 aside-scrollbars-gray",
+  asideBrand: "bg-slate-900 text-white",
   asideMenuCloseLg: "text-white",
   asideMenuLabel: "text-gray-400",
   asideMenuItem: "hover:bg-gray-600 hover:bg-opacity-50",

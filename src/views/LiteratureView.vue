@@ -20,7 +20,7 @@ const birincil = computed(() => mainStore.starter);
   <SectionTitleBar :title-stack="titleStack" />
   <SectionMain class="mx-2">
     <SectionTitleBarSub :icon="mdiChartPie" title="Birincil Kaynaklar" />
-    <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
+    <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 mb-6">
       <BookmarkCard
         v-for="(item, i) in birincil"
         :key="i"
@@ -33,8 +33,7 @@ const birincil = computed(() => mainStore.starter);
     
 
     <SectionTitleBarSub :icon="mdiChartPie" title="Üniversite Kütüphaneleri" />
-    <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
-   
+    <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 mb-6">
       <BookmarkCard
         v-for="(item, i) in libraryItems"
         :key="i"
@@ -44,5 +43,19 @@ const birincil = computed(() => mainStore.starter);
         :alt="item.title"
       />
     </div>
+
+    <SectionTitleBarSub :icon="mdiChartPie" title="Araştırma Kütüphaneleri" />
+    <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 mb-6">
+      <BookmarkCard
+        v-for="(item, i) in libraryItems"
+        :key="i"
+        :uri="item.uri"
+        :image="item.iconuri"
+        :label="item.title"
+        :alt="item.title"
+      />
+    </div>
+    
+
   </SectionMain>
 </template>

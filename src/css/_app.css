@@ -15,10 +15,20 @@ li.stack-item:not(:last-child):after {
   @apply inline-block pl-3;
 }
 
-.m-clipped, .m-clipped body {
+.m-clipped,
+.m-clipped body {
   @apply overflow-hidden lg:overflow-visible;
 }
 
 .full-screen body {
   @apply p-0;
+}
+
+
+.bigbookmark-card {
+  @apply flex transition bg-slate-200 hover:bg-slate-300 text-slate-700 rounded-lg py-4 px-2 shadow-md space-x-1
+}
+
+.bookmark-card {
+  @apply flex items-center transition p-1 bg-stone-200 hover:bg-stone-300 text-black rounded-lg shadow-md
 }

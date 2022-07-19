@@ -37,28 +37,18 @@ defineProps({
 <template>
   <div
     class="
-      flex
-      border-x-4
-      border-red-800
-      hover:border-x-8
-      transition-all
-    bg-yellow-200
-      rounded-lg
-      py-4
-      px-2
-      shadow-md
-      space-x-1
+     
+      bigbookmark-card
     "
   >
     <img :src="image" class="" width="50" alt="" />
-    <div>
-      <h2 class="text-md font-bold leading-tight text-gray-500">
+    <div class="flex items-center">
+      <h2 class="text-md mx-1 font-bold leading-tight">
         <a :href="uri" class="">{{ label }}</a>
       </h2>
-      <h3 class="text-xs text-gray-500 p-1 leading-tight">
-        {{ description }}
-      </h3>
-      <div class="inline-flex"></div>
+      <!-- <h3 class="text-xs  p-1 leading-tight">
+        {{ description }} 
+      </h3> -->
     </div>
   </div>
 </template>

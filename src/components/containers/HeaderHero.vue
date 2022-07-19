@@ -1,10 +1,10 @@
 <template>
-    <section class="mx-2 space-y-3">
-        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4">
+  <section class="mx-2 space-y-3">
+    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-6">
       <CardBox
         class="
           bg-hero
-          shadow-md
+          shadow-lg
           pt-12
           pr-6
           col-span-2
@@ -21,7 +21,7 @@
           class="
             bg-hero2
             text-center
-            shadow-md
+            shadow-lg
             text-black text-2xl
             font-bold
             bg-cover bg-center bg-no-repeat
@@ -33,7 +33,7 @@
           class="
             bg-hero3
             text-center
-            shadow-md
+            shadow-lg
             text-white text-2xl
             font-bold
             bg-cover bg-center bg-no-repeat
@@ -43,12 +43,9 @@
         </CardBox>
       </div>
     </div>
-    </section>
-  
-
+  </section>
 </template>
 
 <script setup>
 import CardBox from "@/components/CardBox.vue";
-
 </script>

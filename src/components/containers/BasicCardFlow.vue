@@ -1,6 +1,7 @@
 <script setup>
 import BookmarkCard from "../BookmarkCard.vue";
 import BigBookmarkCard from "../BigBookmarkCard.vue";
+import CardBox from "../CardBox.vue";
 
 defineProps({
   containerData: {
@@ -12,7 +13,7 @@ defineProps({
 </script>
  
 <template>
-  <div class="grid grid-cols-1 gap-3 lg:grid-cols-3">
+  <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 2xl:grid-cols-4"> 
       <BigBookmarkCard
         v-for="(item, i) in containerData"
         :uri="item.uri"
@@ -20,5 +21,7 @@ defineProps({
         :label="item.title"
         :key="i"
       />
+  
     </div>
+  
 </template>

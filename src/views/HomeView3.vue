@@ -7,6 +7,7 @@ import SectionMain from "@/components/SectionMain.vue";
 import SectionTitleBar from "@/components/SectionTitleBar.vue";
 import BasicCardFlow from "@/components/containers/BasicCardFlow.vue";
 import VerticalCardFlow from "@/components/containers/VerticalCardFlow.vue";
+import HomeCarousel from "@/components/HomeCarousel.vue";
 
 const titleStack = ref([
   "Araştırman",
@@ -14,15 +15,16 @@ const titleStack = ref([
 ]);
 
 const mainStore = useMainStore();
-const bookmarkItems = computed(() => mainStore.libs.slice(0, 6));
-const starter = computed(() => mainStore.starter.slice(0, 6));
+const bookmarkItems = computed(() => mainStore.libs.slice(0, 10));
+const starter = computed(() => mainStore.starter.slice(0, 10));
 </script>
 
 <template>
   <SectionTitleBar :title-stack="titleStack" />
-  <SectionMain class="mx-2 space-y-3">
+  <SectionMain class="mx-2 space-y-6">
     <HeaderHero />
-    <BasicCardFlow :containerData="starter" /> 
+    <BasicCardFlow :containerData="starter" />
+    <HomeCarousel :containerData="bookmarkItems" />
     <VerticalCardFlow :containerData="bookmarkItems" />
   </SectionMain>
 </template>

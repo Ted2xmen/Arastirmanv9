@@ -21,7 +21,7 @@ defineProps({
   <section class="px-6 sm:px-0 mb-6 flex items-center justify-between">
     <div class="flex items-center justify-start">
       <BaseIcon v-if="icon" :path="icon" class="mr-3" />
-      <h1 class="text-2xl">
+      <h1 class="text-md lg:text-lg ">
         {{ title }}
       </h1>
       <Badge :badgeTitle="badgeTitle" :badge="badge" />

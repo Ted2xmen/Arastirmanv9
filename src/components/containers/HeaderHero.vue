@@ -1,6 +1,14 @@
 <template>
-  <section class="mx-2 space-y-3 py-5">
-    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-6">
+  <section class="mx-2 pt-5">
+    <div
+      class="
+        grid grid-cols-1
+        content-center
+        sm:grid-cols-1
+        md:grid-cols-3
+        gap-6
+      "
+    >
       <CardBox
         class="
           bg-hero

@@ -12,12 +12,12 @@ defineProps({
 </script>
  
 <template>
-  <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 2xl:grid-cols-4"> 
+  <div class="flex flex-row flex-wrap"> 
       <BigBookmarkCard
-        v-for="(item, i) in containerData"
+        v-for="(item, i) in containerData.slice(0,4)"
         :uri="item.uri"
         :image="item.iconuri"
-        :label="item.title"
+        label=""
         :key="i"
       />
   

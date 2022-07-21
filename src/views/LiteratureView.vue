@@ -4,7 +4,6 @@ import SectionTitleBar from "@/components/SectionTitleBar.vue";
 import SectionTitleBarSub from "@/components/SectionTitleBarSub.vue";
 import CardBox from "@/components/CardBox.vue";
 import BookmarkCard from "@/components/BookmarkCard.vue";
-import BigBookmarkCard from "@/components/BigBookmarkCard.vue";
 import { computed, ref } from "vue";
 import { useMainStore } from "@/stores/main";
 

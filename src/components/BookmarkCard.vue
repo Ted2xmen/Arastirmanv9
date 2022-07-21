@@ -42,12 +42,7 @@ defineProps({
 </script>
 
 <template>
-  <div
-    class="
-    
-      bookmark-card
-    "
-  >
+  <div class="bookmark-card">
     <div class="p-1">
       <img
         :src="image"
@@ -57,12 +52,7 @@ defineProps({
         :alt="alt"
       />
     </div>
-    <a
-      :href="uri"
-      target="_blank"
-      rel="noopener noreferrer"
-      class=" "
-    >
+    <a :href="uri" target="_blank" rel="noopener noreferrer" class="">
       <header>
         <h2 class="text-sm leading-tight">
           {{ label }}

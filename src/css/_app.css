@@ -26,9 +26,9 @@ li.stack-item:not(:last-child):after {
 
 
 .bigbookmark-card {
-  @apply flex transition bg-slate-200 hover:bg-slate-300 text-slate-700 rounded-lg py-4 px-2 shadow-md space-x-1
+  @apply flex transition bg-slate-200 hover:bg-slate-300 text-slate-700 rounded-lg py-4 px-2 shadow-md space-x-1 border-2 border-red-700 font-serif
 }
 
 .bookmark-card {
-  @apply flex items-center transition p-1 bg-stone-200 hover:bg-stone-300 text-black rounded-lg shadow-md
+  @apply flex items-center transition py-1 bg-slate-300 hover:bg-slate-400 text-black rounded-lg shadow-md font-serif
 }

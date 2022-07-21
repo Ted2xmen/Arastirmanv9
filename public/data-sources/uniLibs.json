@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "guid": "FcV0Q_vYY9sP",
+      "title": "University of Minnesota Libraries",
+      "index": 0,
+      "dateAdded": 1649245822649000,
+      "lastModified": 1649513981421000,
+      "id": 844,
+      "typeCode": 1,
+      "iconuri": "https://www.lib.umn.edu/sites/www.lib.umn.edu/themes/umnlib/favicons/android-chrome-512x512.png",
+      "type": "text/x-moz-place",
+      "uri": "https://www.lib.umn.edu/collections/special"
+    },
+    {
+      "guid": "C9dxL_k1HJGh",
+      "title": "University of Michigan Library",
+      "index": 1,
+      "dateAdded": 1555505758000000,
+      "lastModified": 1649514002372000,
+      "id": 213,
+      "typeCode": 1,
+      "iconuri": "https://libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png",
+      "type": "text/x-moz-place",
+      "uri": "https://guides.lib.umich.edu/?b=s"
+    },
+
+    {
+      "guid": "gGCvs5_YZ-Lt",
+      "title": "Portland State University Databases & Articles",
+      "index": 3,
+      "dateAdded": 1649245883100000,
+      "lastModified": 1649514063290000,
+      "id": 845,
+      "typeCode": 1,
+      "iconuri": "https://libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png",
+      "type": "text/x-moz-place",
+      "uri": "https://guides.library.pdx.edu/az.php"
+    },
+
+    {
+      "guid": "iMhBx9nDjY6Y",
+      "title": "Duke University Libraries",
+      "index": 8,
+      "dateAdded": 1649246521346000,
+      "lastModified": 1649514089921000,
+      "id": 851,
+      "typeCode": 1,
+      "iconuri": "https://archive.org/images/glogo.jpg",
+      "type": "text/x-moz-place",
+      "uri": "https://archive.org/details/dulturk"
+    }
+  ]
+}

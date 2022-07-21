@@ -1,6 +1,5 @@
 <script setup>
-import BookmarkCard from "../BookmarkCard.vue";
-import BigBookmarkCard from "../BigBookmarkCard.vue";
+import BigBookmarkCard from "@/components/shared/BigBookmarkCard.vue";
 import CardBox from "../CardBox.vue";
 
 defineProps({

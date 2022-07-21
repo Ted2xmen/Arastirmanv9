@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-2 space-y-3">
+  <section class="mx-2 space-y-3 py-5">
     <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-6">
       <CardBox
         class="

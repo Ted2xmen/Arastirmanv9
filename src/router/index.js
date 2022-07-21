@@ -36,8 +36,14 @@ const routes = [
     name: "tools",
     component: () => import("@/views/ToolsView.vue"),
   },
-
-
+  {
+    meta: {
+      title: "İletişim",
+    },
+    path: "/contact",
+    name: "contact",
+    component: () => import("@/views/Contact.vue"),
+  },
 
   // {
   //   meta: {

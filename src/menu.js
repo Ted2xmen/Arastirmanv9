@@ -102,13 +102,13 @@ export default [
   //     icon: mdiTable,
   //   },
   // ],
-  "Hakkında",
+  "",
   [
     {
-      href: "https://tailwind-vue.justboil.me/",
+      to: "/contact",
       label: "İletişim",
       icon: mdiMonitorShimmer,
-      target: "_blank",
+      target: "",
     },
   ],
 ];

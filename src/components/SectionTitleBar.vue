@@ -31,19 +31,9 @@ defineProps({
         </li>
       </ul>
 
-      <button
-        class="
-          border-0
-          shadow-md
-          p-2
-          transition
-          hover:bg-slate-500 hover:text-white
-          px-4
-          bg-blue-100
-        "
-      >
+      <a href="#contact">
         Site Öner
-      </button>
+      </a>
     </BaseLevel>
   </section>
 </template>

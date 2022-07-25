@@ -16,9 +16,15 @@ const titleStack = ref([
 ]);
 
 const mainStore = useMainStore();
-const bookmarkItems = computed(() => mainStore.libs.slice(0, 10));
-const starter = computed(() => mainStore.starter.slice(0, 10));
-const uniLibs = computed(() => mainStore.uniLibs.slice(0, 9));
+const homeViewLimit = 5;
+
+const libraries = computed(() => mainStore.libraries.slice(0, homeViewLimit));
+const starter = computed(() => mainStore.starter.slice(0, homeViewLimit));
+const collections = computed(() =>
+  mainStore.collections.slice(0, homeViewLimit)
+);
+const books = computed(() => mainStore.books.slice(0, homeViewLimit));
+const carousel = computed(() => mainStore.carousel);
 </script>
 
 <template>
@@ -26,11 +32,11 @@ const uniLibs = computed(() => mainStore.uniLibs.slice(0, 9));
   <SectionMain class="mx-1 space-y-2">
     <HeaderHero />
 
-    <HomeCarousel :containerData="bookmarkItems" />
+    <HomeCarousel :containerData="carousel" />
 
     <!--second hero-->
     <section
-      class="grid grid-cols-1 md:grid-cols-3 content-center gap-5 mx-5 py-3"
+      class="grid grid-cols-1 md:grid-cols-3 content-center gap-5 mx-5 py-5"
     >
       <div class="flex flex-col justify-between">
         <SectionTitleBarSub
@@ -44,9 +50,13 @@ const uniLibs = computed(() => mainStore.uniLibs.slice(0, 9));
       </div>
 
       <div class="flex flex-col justify-start">
-        <SectionTitleBarSub badge="red" title="Faydalı Araçlar" badgeTitle="Önerilenler" />
+        <SectionTitleBarSub
+          badge="red"
+          title="Faydalı Araçlar"
+          badgeTitle="Öneriler"
+        />
         <div class="rounded-xl overflow-x-auto">
-          <MainContainer :containerData="starter" />
+          <MainContainer :containerData="libraries" />
         </div>
       </div>
 
@@ -75,26 +85,26 @@ const uniLibs = computed(() => mainStore.uniLibs.slice(0, 9));
     <!--second hero-->
 
     <!--uni and others home-->
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-5 mx-5 py-3">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-5 mx-5 pt-5">
       <div class="flex flex-col justify-between">
         <SectionTitleBarSub
-          badge="orange"
-          title="Literatür Taraması"
+          badge="green"
+          title="Koleksiyonlar"
           badgeTitle="Son Eklenenler"
         />
         <div class="overflow-x-auto rounded-xl">
-          <MainContainer :containerData="uniLibs" />
+          <MainContainer :containerData="collections" />
         </div>
       </div>
 
       <div class="flex flex-col justify-between">
         <SectionTitleBarSub
           badge="green"
-          title="Diğer"
+          title="E-Kitaplar"
           badgeTitle="Son Eklenenler"
         />
         <div class="overflow-x-auto rounded-xl">
-          <MainContainer :containerData="uniLibs" />
+          <MainContainer :containerData="books" />
         </div>
       </div>
     </section>

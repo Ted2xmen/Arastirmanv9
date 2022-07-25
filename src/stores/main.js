@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import axios from 'axios'
 
-export const useMainStore = defineStore('main', {
+export const useMainStore = defineStore("main", {
   state: () => ({
     /* User */
     userName: null,
@@ -14,31 +14,36 @@ export const useMainStore = defineStore('main', {
     clients: [],
     history: [],
     bookmarks: [],
-    libs: [],
-    starter: [],
     uniLibs: [],
+    // new datas
+    libraries: [],
+    collections: [],
+    starter: [],
+    tools: [],
+    books: [],
+    carousel: [],
   }),
   actions: {
-    setUser (payload) {
+    setUser(payload) {
       if (payload.name) {
-        this.userName = payload.name
+        this.userName = payload.name;
       }
       if (payload.email) {
-        this.userEmail = payload.email
+        this.userEmail = payload.email;
       }
     },
 
-    fetch (sampleDataKey) {
+    fetch(sampleDataKey) {
       axios
         .get(`data-sources/${sampleDataKey}.json`)
-        .then(r => {
+        .then((r) => {
           if (r.data && r.data.data) {
-            this[sampleDataKey] = r.data.data
+            this[sampleDataKey] = r.data.data;
           }
         })
-        .catch(error => {
-          alert(error.message)
-        })
-    }
-  }
-})
+        .catch((error) => {
+          alert(error.message);
+        });
+    },
+  },
+});

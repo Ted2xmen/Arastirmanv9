@@ -25,29 +25,29 @@ import CardBoxTransaction from "@/components/CardBoxTransaction.vue";
 import CardBoxClient from "@/components/CardBoxClient.vue";
 import SectionTitleBarSub from "@/components/SectionTitleBarSub.vue";
 import BookmarkCard from "@/components/BookmarkCard.vue";
+import HomeCarousel from "@/components/shared/HomeCarousel.vue";
 
 const titleStack = ref(["Araştırman", "Önerilenler"]);
 
 const mainStore = useMainStore();
+const carousel = computed(() => mainStore.carousel);
 
-const clientBarItems = computed(() => mainStore.clients.slice(0, 3));
-
-const transactionBarItems = computed(() => mainStore.history.slice(0, 3));
-
-const bookmarkItems = computed(() => mainStore.bookmarks.slice(0, 13));
-console.log(clientBarItems);
+const collections = computed(() => mainStore.collections);
 </script>
 
 <template>
   <SectionTitleBar :title-stack="titleStack" />
-  <SectionMain class="mx-2">
-    <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
+  <SectionMain class="mx-2 pt-5">
+    <HomeCarousel :containerData="carousel" />
+
+    <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6 pt-5">
       <BookmarkCard
         hoverable
-        v-for="(item, i) in bookmarkItems"
+        v-for="(item, i) in collections"
+        :uri="item.uri"
+        :image="item.iconuri"
+        :label="item.title"
         :key="i"
-        image="/src/logos/archive.png"
-        :label="item.name"
       />
     </div>
   </SectionMain>

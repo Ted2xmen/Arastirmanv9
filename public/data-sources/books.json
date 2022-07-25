@@ -1,0 +1,51 @@
+{
+  "data":
+   [
+     {
+       "guid": "avLmigy1VRc0",
+       "title": "Free eBooks | Project Gutenberg",
+       "index": 0,
+       "dateAdded": 1658664430744000,
+       "lastModified": 1658664430744000,
+       "id": 1087,
+       "typeCode": 1,
+       "iconuri": "https://www.gutenberg.org/gutenberg/favicon.ico?v=1.1",
+       "type": "text/x-moz-place",
+       "uri": "https://www.gutenberg.org/"
+     },
+     {
+       "guid": "freBnz3zirys",
+       "title": "Welcome to Open Library | Open Library",
+       "index": 1,
+       "dateAdded": 1658664439766000,
+       "lastModified": 1658664439766000,
+       "id": 1088,
+       "typeCode": 1,
+       "iconuri": "https://openlibrary.org/static/images/openlibrary-192x192.png",
+       "type": "text/x-moz-place",
+       "uri": "https://openlibrary.org/"
+     },
+     {
+       "guid": "C0uctNP8ojfE",
+       "title": "gen lib - Google'da Ara",
+       "index": 2,
+       "dateAdded": 1658664468771000,
+       "lastModified": 1658664468771000,
+       "id": 1089,
+       "typeCode": 1,
+       "type": "text/x-moz-place",
+       "uri": "https://www.google.com/search?&q=gen+lib"
+     },
+     {
+       "guid": "Tldg25e-VrKP",
+       "title": "Google Kitaplar",
+       "index": 3,
+       "dateAdded": 1658665390087000,
+       "lastModified": 1658665390087000,
+       "id": 1112,
+       "typeCode": 1,
+       "type": "text/x-moz-place",
+       "uri": "https://books.google.com.tr/"
+     }
+   ]
+}

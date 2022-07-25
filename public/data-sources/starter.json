@@ -1,100 +1,167 @@
 {
-    "data": [
-     
-          {
-            "guid": "Tu3qDzRz88Zx",
-            "title": "DergiPark",
-            "index": 0,
-            "dateAdded": 1649245689214000,
-            "lastModified": 1649514162615000,
-            "id": 839,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://dergipark.org.tr/en/"
-          },
-          {
-            "guid": "WUgwEGLCKESg",
-            "title": "Ulusal Tez Merkezi",
-            "index": 1,
-            "dateAdded": 1649245705365000,
-            "lastModified": 1649514167850000,
-            "id": 840,
-            "typeCode": 1,
-            "iconuri": "https://tez.yok.gov.tr/UlusalTezMerkezi/css/images/favicon.ico",
-            "type": "text/x-moz-place",
-            "uri": "https://tez.yok.gov.tr/UlusalTezMerkezi/"
-          },
-          {
-            "guid": "tXmJ0zPDLNcL",
-            "title": "İslâm Araştırmaları Merkezi ",
-            "index": 2,
-            "dateAdded": 1599753503100000,
-            "lastModified": 1649515598256000,
-            "id": 168,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "http://ktp2.isam.org.tr/"
-          },
-          {
-            "guid": "btzvCVRcjqJs",
-            "title": "JSTOR Home",
-            "index": 3,
-            "dateAdded": 1599756703339000,
-            "lastModified": 1649246186655000,
-            "id": 165,
-            "typeCode": 1,
-            "iconuri": "https://www.jstor.org/assets/global_20220528T0305/build/images/favicons/android-chrome-512x512.png",
-            "type": "text/x-moz-place",
-            "uri": "https://www.jstor.org/"
-          },
-          {
-            "guid": "2D-sxK0c4xnt",
-            "title": "AÜ Akademik Arşiv",
-            "index": 4,
-            "dateAdded": 1649246608614000,
-            "lastModified": 1649515542719000,
-            "id": 853,
-            "typeCode": 1,
-            "iconuri": "https://dspace.ankara.edu.tr/xmlui/themes/Mirage2/images/apple-touch-icon.png",
-            "type": "text/x-moz-place",
-            "uri": "https://dspace.ankara.edu.tr/xmlui/"
-          },
-          {
-            "guid": "gfcam6gYArUF",
-            "title": "Milli Kütüphane",
-            "index": 5,
-            "dateAdded": 1649246644330000,
-            "lastModified": 1649514199366000,
-            "id": 855,
-            "typeCode": 1,
-            "iconuri": "http://www.millikutuphane.gov.tr/Common/favicon.new.ico?v=20200701-1735",
-            "type": "text/x-moz-place",
-            "uri": "http://www.millikutuphane.gov.tr/"
-          },
-          {
-            "guid": "HHZwOIfonjUC",
-            "title": "Devlet Arşivleri Başkanlığı",
-            "index": 6,
-            "dateAdded": 1649514817583000,
-            "lastModified": 1649515577492000,
-            "id": 870,
-            "typeCode": 1,
-            "iconuri": "https://www.devletarsivleri.gov.tr/varliklar/tasarim/favicon.ico",
-            "type": "text/x-moz-place",
-            "uri": "https://www.devletarsivleri.gov.tr/"
-          },
-          {
-            "guid": "fxHUWAVvu-2W",
-            "title": "Academia.edu",
-            "index": 7,
-            "dateAdded": 1599755905386000,
-            "lastModified": 1649515023400000,
-            "id": 170,
-            "typeCode": 1,
-            "iconuri": "https://a.academia-assets.com/images/favicons/favicon-194x194.png",
-            "type": "text/x-moz-place",
-            "uri": "https://www.academia.edu/"
-        
+    "data": 
+    [
+      {
+        "guid": "-ijE0N_iOFup",
+        "title": "DergiPark",
+        "index": 0,
+        "dateAdded": 1658664298140000,
+        "lastModified": 1658664298140000,
+        "id": 1079,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://dergipark.org.tr/en/"
+      },
+      {
+        "guid": "LY0LP9IcxDUt",
+        "title": "JSTOR Home",
+        "index": 1,
+        "dateAdded": 1658664304406000,
+        "lastModified": 1658664304406000,
+        "id": 1080,
+        "typeCode": 1,
+        "iconuri": "https://www.jstor.org/assets/global_20220718T1812/build/images/favicons/android-chrome-512x512.png",
+        "type": "text/x-moz-place",
+        "uri": "https://www.jstor.org/"
+      },
+      {
+        "guid": "mOMG5kGGlMP2",
+        "title": "T.C. Cumhurbaşkanlığı Devlet Arşivleri",
+        "index": 2,
+        "dateAdded": 1658664311294000,
+        "lastModified": 1658664311294000,
+        "id": 1081,
+        "typeCode": 1,
+        "iconuri": "https://www.devletarsivleri.gov.tr/varliklar/tasarim/favicon.ico",
+        "type": "text/x-moz-place",
+        "uri": "https://www.devletarsivleri.gov.tr/"
+      },
+      {
+        "guid": "bZpt1yYQNcIT",
+        "title": "Academia.edu",
+        "index": 3,
+        "dateAdded": 1658664316801000,
+        "lastModified": 1658664316801000,
+        "id": 1082,
+        "typeCode": 1,
+        "iconuri": "https://a.academia-assets.com/images/favicons/favicon-194x194.png",
+        "type": "text/x-moz-place",
+        "uri": "https://www.academia.edu/"
+      },
+      {
+        "guid": "mwgrx49RjgqX",
+        "title": "Ulusal Tez Merkezi",
+        "index": 4,
+        "dateAdded": 1658664323055000,
+        "lastModified": 1658664323055000,
+        "id": 1083,
+        "typeCode": 1,
+        "iconuri": "https://tez.yok.gov.tr/UlusalTezMerkezi/css/images/favicon.ico",
+        "type": "text/x-moz-place",
+        "uri": "https://tez.yok.gov.tr/UlusalTezMerkezi/"
+      },
+      {
+        "guid": "NNdLWorDugtW",
+        "title": "Milli Kütüphane",
+        "index": 5,
+        "dateAdded": 1658664329693000,
+        "lastModified": 1658664329693000,
+        "id": 1084,
+        "typeCode": 1,
+        "iconuri": "http://www.millikutuphane.gov.tr/Common/favicon.new.ico?v=20200701-1735",
+        "type": "text/x-moz-place",
+        "uri": "http://www.millikutuphane.gov.tr/"
+      },
+      {
+        "guid": "w2ib4TO3tC0R",
+        "title": "WorldCat.org - The World's Largest Library Catalog",
+        "index": 6,
+        "dateAdded": 1658664378291000,
+        "lastModified": 1658664378291000,
+        "id": 1085,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.worldcat.org/"
+      },
+      {
+        "guid": "VQnc3lYEWnYs",
+        "title": "Kaynakca.info - Hacettepe",
+        "index": 7,
+        "dateAdded": 1658665015483000,
+        "lastModified": 1658665015483000,
+        "id": 1095,
+        "typeCode": 1,
+        "iconuri": "http://kaynakca.hacettepe.edu.tr/public/images/favicon.ico",
+        "type": "text/x-moz-place",
+        "uri": "http://kaynakca.hacettepe.edu.tr/"
+      },
+      {
+        "guid": "HsxYGBwgs6RI",
+        "title": "SAGE: Your gateway to world-class research journals",
+        "index": 8,
+        "dateAdded": 1658665062868000,
+        "lastModified": 1658665062868000,
+        "id": 1096,
+        "typeCode": 1,
+        "iconuri": "https://journals.sagepub.com/pb-assets/Icons/sj-apple-touch-1513073710420.png",
+        "type": "text/x-moz-place",
+        "uri": "https://journals.sagepub.com/"
+      },
+      {
+        "guid": "IcF84Dktbwmp",
+        "title": "ProQuest Database",
+        "index": 9,
+        "dateAdded": 1658665077375000,
+        "lastModified": 1658665077375000,
+        "id": 1097,
+        "typeCode": 1,
+        "iconuri": "https://www.proquest.com/android-icon-192x192.png",
+        "type": "text/x-moz-place",
+        "uri": "https://www.proquest.com/"
+      },
+      {
+        "guid": "o49x5kPJYNUo",
+        "title": "sci hub - Google'da Ara",
+        "index": 10,
+        "dateAdded": 1658665097649000,
+        "lastModified": 1658665097649000,
+        "id": 1098,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.google.com/search?q=sci+hub"
+      },
+      {
+        "guid": "hJPRytNiFjaU",
+        "title": "TBMM Kütüphanesi Katalogu",
+        "index": 11,
+        "dateAdded": 1658665319727000,
+        "lastModified": 1658665319727000,
+        "id": 1108,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://kutuphane.tbmm.gov.tr/cgi-bin/koha/opac-main.pl"
+      },
+      {
+        "guid": "vGVGWrUwF7mQ",
+        "title": "Atatürk Araştırma Merkezi",
+        "index": 12,
+        "dateAdded": 1658665327857000,
+        "lastModified": 1658665327857000,
+        "id": 1109,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.atam.gov.tr/"
+      },
+      {
+        "guid": "xnB8gLzUoP8t",
+        "title": "Google Akademik",
+        "index": 13,
+        "dateAdded": 1658665379658000,
+        "lastModified": 1658665383250000,
+        "id": 1111,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://scholar.google.com.tr/"
       }
     ]
 }

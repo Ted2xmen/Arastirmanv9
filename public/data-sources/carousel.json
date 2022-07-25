@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "guid": "avLmigy1VRc0",
+      "title": "Archive.org",
+      "index": 0,
+      "dateAdded": 1658664430744000,
+      "lastModified": 1658664430744000,
+      "id": 1087,
+      "typeCode": 1,
+      "iconuri": "https://clintonpubliclibrary.us/application/files/3116/1928/3912/Internet_Archive_Logo_2.png",
+      "type": "text/x-moz-place",
+      "uri": "https://www.archive.org/"
+    },
+    {
+      "guid": "freBnz3zirys",
+      "title": "Open Library",
+      "index": 1,
+      "dateAdded": 1658664439766000,
+      "lastModified": 1658664439766000,
+      "id": 1088,
+      "typeCode": 1,
+      "iconuri": "https://openlibrary.org/static/images/openlibrary-logo-tighter.svg",
+      "type": "text/x-moz-place",
+      "uri": "https://openlibrary.org/"
+    },
+    {
+      "guid": "C0uctNP8ojfE",
+      "title": "Worldcat",
+      "index": 2,
+      "dateAdded": 1658664468771000,
+      "lastModified": 1658664468771000,
+      "id": 1089,
+      "typeCode": 1,
+      "iconuri": "https://upload.wikimedia.org/wikipedia/commons/7/7e/WorldCat_Logo.png",
+      "type": "text/x-moz-place",
+      "uri": "https://www.worldcat.org/"
+    },
+        {
+      "guid": "Tldg25e-VrKP",
+      "title": "Ulusal Toplu Katalog",
+      "index": 3,
+      "dateAdded": 1658665390087000,
+      "lastModified": 1658665390087000,
+      "id": 1112,
+      "typeCode": 1,
+      "iconuri": "https://cabim.ulakbim.gov.tr/wp-content/uploads/sites/4/2015/09/toplukatalog_sayfa_banner.png",
+      "type": "text/x-moz-place",
+      "uri": "http://www.toplukatalog.gov.tr/"
+    },
+    {
+      "guid": "Tldg25e-VrKP",
+      "title": "Sci-hub",
+      "index": 3,
+      "dateAdded": 1658665390087000,
+      "lastModified": 1658665390087000,
+      "id": 1112,
+      "typeCode": 1,
+      "iconuri": "https://upload.wikimedia.org/wikipedia/commons/7/73/Logo_sci-hub.png",
+      "type": "text/x-moz-place",
+      "uri": "https://www.google.com/search?q=sci+hub&source=lmns&bih=762&biw=1440&hl=tr&sa=X&ved=2ahUKEwjS-s-MhpT5AhWS6qQKHVlJC6sQ_AUoAHoECAEQAA"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "data": 
+  [
+    {
+      "guid": "VcKPypqN6axe",
+      "title": "Archives and Special Collections - University of Minnesota",
+      "index": 0,
+      "dateAdded": 1658664203626000,
+      "lastModified": 1658664203626000,
+      "id": 1075,
+      "typeCode": 1,
+      "iconuri": "https://www.lib.umn.edu/sites/www.lib.umn.edu/themes/umnlib/favicons/android-chrome-512x512.png",
+      "type": "text/x-moz-place",
+      "uri": "https://www.lib.umn.edu/collections/special"
+    },
+    {
+      "guid": "Yx-IUWiT1FM_",
+      "title": "Research Guides at University of Michigan Library",
+      "index": 1,
+      "dateAdded": 1658664214427000,
+      "lastModified": 1658664214427000,
+      "id": 1076,
+      "typeCode": 1,
+      "iconuri": "https://libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png",
+      "type": "text/x-moz-place",
+      "uri": "https://guides.lib.umich.edu/?b=s"
+    },
+    {
+      "guid": "0qmRwwdQHdy9",
+      "title": "Portland State - Databases & Articles",
+      "index": 2,
+      "dateAdded": 1658664242770000,
+      "lastModified": 1658664242770000,
+      "id": 1077,
+      "typeCode": 1,
+      "iconuri": "https://libapps.s3.amazonaws.com/apps/common/favicon/apple-touch-icon.png",
+      "type": "text/x-moz-place",
+      "uri": "https://guides.library.pdx.edu/az.php"
+    },
+    {
+      "guid": "hKKxy2ARpiR-",
+      "title": "Library of Congress",
+      "index": 3,
+      "dateAdded": 1658664738295000,
+      "lastModified": 1658664738295000,
+      "id": 1090,
+      "typeCode": 1,
+      "type": "text/x-moz-place",
+      "uri": "https://www.loc.gov/"
+    },
+    {
+      "guid": "BT7GvJhz31Cq",
+      "title": "Digital Public Library of America",
+      "index": 4,
+      "dateAdded": 1658664747862000,
+      "lastModified": 1658664747862000,
+      "id": 1091,
+      "typeCode": 1,
+      "iconuri": "https://dp.la/static/favicons/apple-touch-icon.png",
+      "type": "text/x-moz-place",
+      "uri": "https://dp.la/"
+    },
+    {
+      "guid": "WqVhQMLz_R4Y",
+      "title": "CURIOSity Digital Collections",
+      "index": 5,
+      "dateAdded": 1658664895308000,
+      "lastModified": 1658664895308000,
+      "id": 1093,
+      "typeCode": 1,
+      "iconuri": "https://curiosity.lib.harvard.edu/assets/favicon-99c8343c8209bc344ce444961665c60beb6d5c05e12e26da294981721ae38232.ico",
+      "type": "text/x-moz-place",
+      "uri": "https://curiosity.lib.harvard.edu/"
+    },
+    {
+      "guid": "rghSf9sXhERZ",
+      "title": "Gallica - National Library of France",
+      "index": 6,
+      "dateAdded": 1658664970154000,
+      "lastModified": 1658664970154000,
+      "id": 1094,
+      "typeCode": 1,
+      "iconuri": "https://gallica.bnf.fr/accueil/sites/default/files/index.ico",
+      "type": "text/x-moz-place",
+      "uri": "https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop"
+    },
+    {
+      "guid": "f7Vmubr5nqdi",
+      "title": "HathiTrust Digital Library",
+      "index": 7,
+      "dateAdded": 1658665111946000,
+      "lastModified": 1658665111946000,
+      "id": 1099,
+      "typeCode": 1,
+      "iconuri": "https://www.hathitrust.org/sites/www.hathitrust.org/themes/hathitrust_unicorn/images/hathi/hathi_logo_light.jpg",
+      "type": "text/x-moz-place",
+      "uri": "https://www.hathitrust.org/"
+    },
+    {
+      "guid": "HXH0Ou1swToS",
+      "title": "DSpace@MIT - Search",
+      "index": 8,
+      "dateAdded": 1658665336960000,
+      "lastModified": 1658665336960000,
+      "id": 1110,
+      "typeCode": 1,
+      "iconuri": "https://dspace.mit.edu/themes/Mirage2/images/apple-touch-icon.png",
+      "type": "text/x-moz-place",
+      "uri": "https://dspace.mit.edu/discover"
+    }
+  ]
+}

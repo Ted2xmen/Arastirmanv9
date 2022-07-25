@@ -24,11 +24,20 @@ const layoutStore = useLayoutStore(pinia)
 /* Fetch sample data */
 mainStore.fetch('clients')
 mainStore.fetch('history')
-mainStore.fetch("libs");
+
 mainStore.fetch("bookmarks");
 mainStore.fetch("starter");
 // new data's
+mainStore.fetch("libraries");
 mainStore.fetch("uniLibs");
+mainStore.fetch("collections");
+mainStore.fetch("tools");
+mainStore.fetch("books");
+mainStore.fetch("carousel");
+
+
+
+
 
 
 

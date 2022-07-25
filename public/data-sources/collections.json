@@ -1,0 +1,84 @@
+{
+  "data": 
+    [
+      {
+        "guid": "FyAW2BksRjB4",
+        "title": "French Revolution Digital Archive",
+        "index": 0,
+        "dateAdded": 1658665163378000,
+        "lastModified": 1658665163378000,
+        "id": 1101,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://frda.stanford.edu/"
+      },
+      {
+        "guid": "Lr14hVzRMA4V",
+        "title": "Perry-Castañeda Map Collection - UT Library",
+        "index": 1,
+        "dateAdded": 1658665176980000,
+        "lastModified": 1658665176980000,
+        "id": 1102,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://maps.lib.utexas.edu/maps/map_sites/hist_sites.html#US"
+      },
+      {
+        "guid": "5rFeB3bxIafr",
+        "title": "Europeana - Discover inspiring European cultural heritage",
+        "index": 2,
+        "dateAdded": 1658665196663000,
+        "lastModified": 1658665196663000,
+        "id": 1103,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.europeana.eu/en"
+      },
+      {
+        "guid": "ByK2u_1tnLxE",
+        "title": "IRCICA - İslam Tarih, Sanat ve Kültür Araştırma Merkezi",
+        "index": 3,
+        "dateAdded": 1658665264875000,
+        "lastModified": 1658665264875000,
+        "id": 1106,
+        "typeCode": 1,
+        "iconuri": "https://www.ircica.org/wp-content/uploads/2019/05/favicon.png",
+        "type": "text/x-moz-place",
+        "uri": "https://www.ircica.org/tr"
+      },
+      {
+        "guid": "8ve2yzy7uBR9",
+        "title": "SALT Araştırma",
+        "index": 4,
+        "dateAdded": 1658665280665000,
+        "lastModified": 1658665280665000,
+        "id": 1107,
+        "typeCode": 1,
+        "iconuri": "https://saltresearch.org/primo_library/libweb/images_salt/favicons/apple-touch-icon-144x144.png",
+        "type": "text/x-moz-place",
+        "uri": "https://saltresearch.org/primo_library/libweb/action/search.do?vid=salt"
+      },
+      {
+        "guid": "iaWxXivHd6D3",
+        "title": "Avalon - Documents in Law, History and Diplomacy",
+        "index": 5,
+        "dateAdded": 1658665425290000,
+        "lastModified": 1658665425290000,
+        "id": 1113,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://avalon.law.yale.edu/"
+      },
+      {
+        "guid": "2FLqWiaLhEpS",
+        "title": "David Rumsey Historical Map Collection",
+        "index": 6,
+        "dateAdded": 1658665449131000,
+        "lastModified": 1658665449131000,
+        "id": 1114,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.davidrumsey.com/"
+      }
+    ]
+}

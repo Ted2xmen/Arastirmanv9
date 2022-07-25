@@ -11,8 +11,12 @@ const titleStack = ref(["Araştırman", "Literatür Taraması"]);
 
 const mainStore = useMainStore();
 
-const libraryItems = computed(() => mainStore.libs);
-const birincil = computed(() => mainStore.starter);
+const libraries = computed(() => mainStore.libraries);
+const starter = computed(() => mainStore.starter);
+const collections = computed(() => mainStore.collections);
+const books = computed(() => mainStore.books);
+
+
 </script>
 
 <template>
@@ -21,7 +25,20 @@ const birincil = computed(() => mainStore.starter);
     <SectionTitleBarSub :icon="mdiChartPie" title="Birincil Kaynaklar" />
     <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 mb-6">
       <BookmarkCard
-        v-for="(item, i) in birincil"
+        v-for="(item, i) in starter"
+        :key="i"
+        :uri="item.uri"
+        :image="item.iconuri"
+        :label="item.title"
+        :alt="item.title"
+      />
+    </div>
+
+
+      <SectionTitleBarSub :icon="mdiChartPie" title="E-Kitaplar" />
+    <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 mb-6">
+      <BookmarkCard
+        v-for="(item, i) in books"
         :key="i"
         :uri="item.uri"
         :image="item.iconuri"
@@ -31,10 +48,10 @@ const birincil = computed(() => mainStore.starter);
     </div>
     
 
-    <SectionTitleBarSub :icon="mdiChartPie" title="Üniversite Kütüphaneleri" />
+    <SectionTitleBarSub :icon="mdiChartPie" title="Milli Kütüphaneler & Araştırma Merkezleri vb" />
     <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 mb-6">
       <BookmarkCard
-        v-for="(item, i) in libraryItems"
+        v-for="(item, i) in libraries"
         :key="i"
         :uri="item.uri"
         :image="item.iconuri"
@@ -43,10 +60,10 @@ const birincil = computed(() => mainStore.starter);
       />
     </div>
 
-    <SectionTitleBarSub :icon="mdiChartPie" title="Araştırma Kütüphaneleri" />
+    <SectionTitleBarSub :icon="mdiChartPie" title="Dijital Koleksiyonlar" />
     <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 mb-6">
       <BookmarkCard
-        v-for="(item, i) in libraryItems"
+        v-for="(item, i) in collections"
         :key="i"
         :uri="item.uri"
         :image="item.iconuri"

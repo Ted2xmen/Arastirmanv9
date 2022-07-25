@@ -5,15 +5,18 @@
         <div class="carousel__item py-8">
           <!-- <img :src="slide.iconuri" width="80" alt="" /> -->
           <div class="px-2">
+            <a :href="slide.uri" target="_blank" rel="noopener noreferrer" >
             <img
               class="rounded-lg cursor-pointer opacity-90 hover:opacity-100"
               :src="
-                `https://i.ytimg.com/vi/P0jowoX42DQ/maxresdefault.jpg` ||
+                `${slide.iconuri}` ||
                 `https://www.svgrepo.com/show/139611/loading.svg`
               "
-              width="180"
+              width="120"
+              height="120"
               alt=""
             />
+            </a>
           </div>
         </div>
       </Slide>

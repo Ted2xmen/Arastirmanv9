@@ -5,17 +5,17 @@
         <div class="carousel__item py-8">
           <!-- <img :src="slide.iconuri" width="80" alt="" /> -->
           <div class="px-2">
-            <a :href="slide.uri" target="_blank" rel="noopener noreferrer" >
-            <img
-              class="rounded-lg cursor-pointer opacity-90 hover:opacity-100"
-              :src="
-                `${slide.iconuri}` ||
-                `https://www.svgrepo.com/show/139611/loading.svg`
-              "
-              width="120"
-              height="120"
-              alt=""
-            />
+            <a :href="slide.uri" target="_blank" rel="noopener noreferrer">
+              <img
+                class="rounded-lg cursor-pointer opacity-90 hover:opacity-100"
+                :src="
+                  `${slide.iconuri}` ||
+                  `https://www.svgrepo.com/show/139611/loading.svg`
+                "
+                width="120"
+                height="120"
+                alt=""
+              />
             </a>
           </div>
         </div>
@@ -36,7 +36,6 @@
 
 <script >
 import { defineComponent, computed } from "vue";
-
 import { Carousel, Navigation, Slide } from "vue3-carousel";
 
 import "vue3-carousel/dist/carousel.css";
@@ -70,7 +69,7 @@ export default defineComponent({
         itemsToShow: 5,
         snapAlign: "start",
       },
-       1624: {
+      1624: {
         itemsToShow: 6,
         snapAlign: "start",
       },

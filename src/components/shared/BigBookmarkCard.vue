@@ -35,12 +35,7 @@ defineProps({
 </script>
 
 <template>
-  <div
-    class="
-     
-      bigbookmark-card
-    "
-  >
+  <div class="bigbookmark-card">
     <img :src="image" class="" width="50" alt="" />
     <div class="flex items-center">
       <h2 class="text-md mx-1 font-bold leading-tight">

@@ -29,7 +29,7 @@ const carousel = computed(() => mainStore.carousel);
 
 <template>
   <SectionTitleBar :title-stack="titleStack" />
-  <SectionMain class="mx-1 space-y-2">
+  <SectionMain class="mx-1 space-y-2 pb-10">
     <HeaderHero />
 
     <HomeCarousel :containerData="carousel" />

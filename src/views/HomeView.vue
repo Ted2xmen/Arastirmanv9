@@ -60,27 +60,18 @@ const carousel = computed(() => mainStore.carousel);
         </div>
       </div>
 
-      <div class="flex flex-col 2xl:mt-8">
-        <SectionTitleBarSub badge="" title="" badgeTitle="" />
-        <CardBox
-          class="
-            bg-about
-            shadow-lg
-            flex
-            items-end
-            flex-1
-            object-center
-            bg-no-repeat bg-cover
-          "
-        >
-          <ul class="text-lg font-serif space-y-1">
-            <li>Birincil Kaynaklar - (12)</li>
-            <li>Faydalı Araçlar - (22)</li>
-            <li>Literatür Taraması - (44)</li>
-            <li>Diğer - (44)</li>
-          </ul>
-        </CardBox>
+      <div class="flex flex-col justify-start">
+        <SectionTitleBarSub
+          badge="red"
+          title="Faydalı Araçlar"
+          badgeTitle="Öneriler"
+        />
+        <div class="rounded-xl overflow-x-auto">
+          <MainContainer :containerData="libraries" />
+        </div>
       </div>
+
+      
     </section>
     <!--second hero-->
 
@@ -108,6 +99,7 @@ const carousel = computed(() => mainStore.carousel);
         </div>
       </div>
     </section>
+    <div class="bg-red-400 w-full h-40">s</div>
     <!--uni and others home-->
   </SectionMain>
 </template>

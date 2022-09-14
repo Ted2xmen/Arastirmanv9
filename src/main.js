@@ -36,6 +36,8 @@ mainStore.fetch("books");
 mainStore.fetch("carousel");
 
 
+mainStore.fetch("courses");
+
 
 
 

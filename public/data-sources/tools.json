@@ -1,0 +1,52 @@
+{
+  "data": 
+     [
+                                {
+                                    "guid": "OnkbrFiY7gI3",
+                                    "title": "En İyi Not Alma Uygulaması - Notlarınızı Evernote ile Düzenleyin",
+                                    "index": 0,
+                                    "dateAdded": 1663154642099000,
+                                    "lastModified": 1663154642099000,
+                                    "id": 1164,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://evernote.com/intl/tr"
+                                },
+                                {
+                                    "guid": "DcLO9oTP2jzw",
+                                    "title": "Smallpdf.com - Tüm PDF Sorunlarınıza Ücretsiz Bir Çözüm",
+                                    "index": 1,
+                                    "dateAdded": 1663154876300000,
+                                    "lastModified": 1663154876300000,
+                                    "id": 1165,
+                                    "typeCode": 1,
+                                    "iconUri": "https://smallpdf.com/favicon.png",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://smallpdf.com/tr"
+                                },
+                                {
+                                    "guid": "e_nvrP3lrCpk",
+                                    "title": "Ücretsiz Tasarım Aracı: Sunumlar, Video, Sosyal Medya | Canva",
+                                    "index": 2,
+                                    "dateAdded": 1663154890981000,
+                                    "lastModified": 1663154890981000,
+                                    "id": 1166,
+                                    "typeCode": 1,
+                                    "iconUri": "https://static.canva.com/static/images/android-192x192-2.png",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.canva.com/tr_tr/"
+                                },
+                                {
+                                    "guid": "qdSAnrk5uSgX",
+                                    "title": "Free eBooks | Project Gutenberg",
+                                    "index": 3,
+                                    "dateAdded": 1663155110768000,
+                                    "lastModified": 1663155110768000,
+                                    "id": 1167,
+                                    "typeCode": 1,
+                                    "iconUri": "https://gutenberg.org/gutenberg/favicon.ico?v=1.1",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://gutenberg.org/"
+                                }
+                            ]
+}

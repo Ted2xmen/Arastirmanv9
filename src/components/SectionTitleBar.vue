@@ -31,7 +31,7 @@ defineProps({
         </li>
       </ul>
 
-      <a href="#contact">
+      <a href="/contact">
         Site Öner
       </a>
     </BaseLevel>

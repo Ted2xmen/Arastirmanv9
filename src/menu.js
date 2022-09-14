@@ -35,21 +35,21 @@ export default [
       label: "Faydalı Araçlar",
       icon: mdiSquareEditOutline,
     },
-    {
-      label: "Online",
-      icon: mdiViewList,
-      menu: [
-        {
-          label: "Kütüphaneler",
-        },
-        {
-          label: "Müzeler",
-        },
-        {
-          label: "Koleksiyonlar",
-        },
-      ],
-    },
+    // {
+    //   label: "Online",
+    //   icon: mdiViewList,
+    //   // menu: [
+    //   //   {
+    //   //     label: "Kütüphaneler",
+    //   //   },
+    //   //   {
+    //   //     label: "Müzeler",
+    //   //   },
+    //   //   {
+    //   //     label: "Koleksiyonlar",
+    //   //   },
+    //   // ],
+    // },
     // {
     //   href: "https://github.com/justboil/admin-one-vue-tailwind",
     //   label: "Sözlükler",
@@ -63,17 +63,18 @@ export default [
     {
       label: "Yabancı Dil",
       icon: mdiViewList,
-      menu: [
-        {
-          label: "Haritalar",
-        },
-        {
-          label: "Görseller",
-        },
-      ],
+      to: "/language"
+      // menu: [
+      //   {
+      //     label: "Haritalar",
+      //   },
+      //   {
+      //     label: "Görseller",
+      //   },
+      // ],
     },
     {
-      to: "/sad",
+      to: "/courses",
       label: "Kurslar",
       icon: mdiGithub
     },

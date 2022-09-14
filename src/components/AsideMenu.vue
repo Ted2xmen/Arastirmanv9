@@ -82,8 +82,7 @@ const menuClick = () => {
         />
       </template>
       <div class="flex flex-col items-center gap-3 justify-center pt-5">
-        <img src="/src/logos/dergipark.png" width="150" />
-                <img src="/src/logos/tureng.png" width="150" />
+        <!-- <img src="/src/logos/dergipark.png" width="150" /> -->
 
       </div>
     </div>

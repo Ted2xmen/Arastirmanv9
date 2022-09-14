@@ -1,0 +1,51 @@
+{
+    "data" :  [
+                                {
+                                    "guid": "NoAe_qYuurii",
+                                    "title": "Coursera | Online Courses & Credentials From Top Educators. Join for Free",
+                                    "index": 0,
+                                    "dateAdded": 1663155190232000,
+                                    "lastModified": 1663155190232000,
+                                    "id": 1168,
+                                    "typeCode": 1,
+                                    "iconUri": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/favicon-v2-194x194.png",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.coursera.org/"
+                                },
+                                {
+                                    "guid": "Eh1NBtuvIdWQ",
+                                    "title": "edX | Free Online Courses by Harvard, MIT, & more | edX",
+                                    "index": 1,
+                                    "dateAdded": 1663155198351000,
+                                    "lastModified": 1663155198351000,
+                                    "id": 1169,
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "http://www.edx.org/"
+                                },
+                                {
+                                    "guid": "dWWvYvkfkS8d",
+                                    "title": "LinkedIn Learning: Online Courses for Creative, Technology, Business Skills",
+                                    "index": 2,
+                                    "dateAdded": 1663155211035000,
+                                    "lastModified": 1663155211035000,
+                                    "id": 1170,
+                                    "typeCode": 1,
+                                    "iconUri": "https://static-exp1.licdn.com/sc/h/4rofpzy5v6dck59m294l6nfcv",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.linkedin.com/learning/?setupTimeGoal=false&showCongrats=false"
+                                },
+                                {
+                                    "guid": "Erra-XM26h0H",
+                                    "title": "Online Kurslar - Programınıza Uygun Şekilde Her Şeyi Öğrenin | Udemy",
+                                    "index": 3,
+                                    "dateAdded": 1663155219570000,
+                                    "lastModified": 1663155219570000,
+                                    "id": 1171,
+                                    "typeCode": 1,
+                                    "iconUri": "https://www.udemy.com/staticx/udemy/images/v7/apple-touch-icon.png",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.udemy.com/"
+                                }
+                            ]
+}

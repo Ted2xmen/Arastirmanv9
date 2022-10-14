@@ -17,11 +17,7 @@ export default [
       icon: mdiDesktopMac,
       label: "Anasayfa",
     },
-    {
-      to: "/suggested",
-      icon: mdiTelevisionGuide,
-      label: "Önerilen",
-    },
+   
   ],
   "Akademi",
   [

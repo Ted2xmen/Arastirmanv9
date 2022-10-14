@@ -16,7 +16,9 @@ const titleStack = ref([
 ]);
 
 const mainStore = useMainStore();
-const homeViewLimit = 5;
+const homeViewLimit = 10;
+
+const tools = computed(() => mainStore.tools.slice(0, homeViewLimit));
 
 const libraries = computed(() => mainStore.libraries.slice(0, homeViewLimit));
 const starter = computed(() => mainStore.starter.slice(0, homeViewLimit));
@@ -56,7 +58,7 @@ const carousel = computed(() => mainStore.carousel);
           badgeTitle="Öneriler"
         />
         <div class="rounded-xl overflow-x-auto">
-          <MainContainer :containerData="libraries" />
+          <MainContainer :containerData="tools" />
         </div>
       </div>
 
@@ -70,8 +72,6 @@ const carousel = computed(() => mainStore.carousel);
           <MainContainer :containerData="libraries" />
         </div>
       </div>
-
-      
     </section>
     <!--second hero-->
 
@@ -99,7 +99,6 @@ const carousel = computed(() => mainStore.carousel);
         </div>
       </div>
     </section>
-    <div class="bg-red-400 w-full h-40">s</div>
     <!--uni and others home-->
   </SectionMain>
 </template>

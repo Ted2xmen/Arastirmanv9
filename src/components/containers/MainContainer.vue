@@ -49,7 +49,7 @@ defineProps({
     <BookmarkCard
       v-for="(item, i) in containerData"
       :uri="item.uri"
-      :image="item.iconuri"
+      :image="item.iconuri || item.iconUri"
       :label="item.title"
       :key="i"
     />

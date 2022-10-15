@@ -20,14 +20,7 @@ const routes = [
     name: "literature",
     component: () => import("@/views/LiteratureView.vue"),
   },
-  {
-    meta: {
-      title: "Önerilenler",
-    },
-    path: "/suggested",
-    name: "suggested",
-    component: () => import("@/views/SuggestedView.vue"),
-  },
+
   {
     meta: {
       title: "Faydalı Araçlar",
